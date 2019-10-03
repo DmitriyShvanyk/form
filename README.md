@@ -1,6 +1,6 @@
 ![alt-текст](https://pictures.s3.yandex.net/frontend-developer/dom_bom/logo.svg "Yandex Prakticum - Регулярные выражения");
 # Form Validation - https://dmitriyshvanyk.github.io/form/
-## Version 1.0.0
+## Version 1.0.1
 
 ## 1. Regex Имя
 ```^[А-ЯЁ][а-яё]*(-?[А-ЯЁ][а-яё]*)*$```
