@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Regular Expressions</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header class="header">
         <img class="header__logo" src="https://pictures.s3.yandex.net/frontend-developer/dom_bom/logo.svg" alt="logo">
@@ -20,14 +22,18 @@
                 <h3>Форма регистрации</h3>
                 <fieldset class="form__fieldset">
                     <div class="form__field">
-                        <input class="form__input" type="text" name="name" pattern="^[А-ЯЁ][а-яё]*([-][А-ЯЁ][а-яё]*)*$" placeholder="Имя" required>
+                        <input class="form__input" type="text" name="name" pattern="^[А-ЯЁ][а-яё]*([-][А-ЯЁ][а-яё]*)*$"
+                            placeholder="Имя" required>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="email" name="name" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{1,})+$" placeholder="E-Mail">
+                        <input class="form__input" type="email" name="name"
+                            pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{1,})+$" placeholder="E-Mail">
                         <span class="form__error">e-mail в формате: sega@yandex.ru</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="tel" name="name" placeholder="Телефон" pattern="" minlength="" maxlength="">
+                        <input class="form__input" type="tel" name="name" placeholder="Телефон"
+                            pattern="^[\+]?[7|8]{1,}?[(|\s]?[0-9]{3}?[)|-]?[\s]?[0-9]{3}?[-\s\.]?[0-9]{2}?[-\s\.]?[0-9]{2}$"
+                            minlength="11" maxlength="17">
                         <span class="form__error">телефон в формате: +7 (123) 456-78-90</span>
                     </div>
                     <div class="form__field">
@@ -38,6 +44,7 @@
                 </fieldset>
             </form>
         </div>
-    </main>     
+    </main>
 </body>
+
 </html>
