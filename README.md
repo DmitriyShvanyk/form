@@ -1,6 +1,6 @@
 ![alt-текст](https://pictures.s3.yandex.net/frontend-developer/dom_bom/logo.svg "Yandex Prakticum - Регулярные выражения");
 # Form Validation - https://dmitriyshvanyk.github.io/form/
-## Version 1.0.3
+## Version 1.0.4
 
 ## 1. Regex Имя
 ```^[А-ЯЁ][а-яё]*(-?[А-ЯЁ][а-яё]*)*$```
@@ -8,9 +8,9 @@
 [1]: https://regex101.com/r/bLJqBH/1
 
 ## 2. Regex E-Mail
-```^[a-z0-9]{1,}?([._-]?[a-z0-9]{1,})*@[a-z0-9]{1,}?-?[a-z0-9]{1,}?(.[a-z]{2,})*$```
+```^[a-z0-9]{1,}?([._-]?[a-z0-9]{1,})*@[a-z0-9]{2,}?-?\.([a-z0-9]{2,}?)(.[a-z]{2,})*$```
 ### [Test][2]
-[2]: https://regex101.com/r/x3TZml/4
+[2]: https://regex101.com/r/x3TZml/5
 
 ## 3. Regex Телефон
 ```^\+?[7|8]+?[(|\s]?[0-9]{3}?[)|-]?[\s]?[0-9]{3}?[-\s\.]?[0-9]{2}?[-\s\.]?[0-9]{2}$```
