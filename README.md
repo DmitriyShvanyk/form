@@ -1,4 +1,3 @@
-![alt-текст](https://pictures.s3.yandex.net/frontend-developer/dom_bom/logo.svg "Yandex Prakticum - Регулярные выражения");
 # Form Validation - https://dmitriyshvanyk.github.io/form/
 ## Version 1.0.4
 
@@ -20,5 +19,5 @@
 
 ## 4. Regex Url сайта
 ```^((https?):\/\/)(?!.*[a-z]\.(?:www)).*(([a-z0-9]{2,}\.[a-z]{2,})|(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}))((:\d{2,5})?((\/[a-z0-9]{1,})*(\.?[a-z]+)*)?)?\/?#?$```
-### [Test][4] 
+### [Test][4]
 [4]: https://regex101.com/r/182wxC/9
